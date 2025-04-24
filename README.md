@@ -36,7 +36,7 @@ Features are transformed via PCA and include a `Class` column (1 = fraud, 0 = no
 Achieved **AUC = 1.0** due to clean balancing and fraud separation.
 
 ## 📹 Video Presentation
-View the entire 10-minute guide <!-- Replace this after upload --> ">☛YouTube Link
+View the entire guide: [Final Video (YouTube)](https://www.youtube.com/watch?v=y_62x5yYxzY)
 
 ## 👤 Author
 Alon Dorfman — the only person who developed the final group project
