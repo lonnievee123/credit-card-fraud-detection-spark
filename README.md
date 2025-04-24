@@ -25,12 +25,12 @@ Features are transformed via PCA and include a `Class` column (1 = fraud, 0 = no
    - Aggregate and stratify the split in the training and the testing set
 
 3. **Feature Engineering**
-   - Apply VectorAssembler to build the features column
+   - You can use VectorAssembler to construct the features column
 
 4. **Modeling**
-   - Train RandomForestClassifier
-   - Evaluate with AUC (BinaryClassificationEvaluator)
-   - Display prediction vs. actual breakdown
+- Fit the data using RandomForestClassifier 
+- Compute AUC (BinaryClassificationEvaluator)   
+- Print the distribution of the predictions and the actual breakdown
 
 ## 📈 Result
 Achieved **AUC = 1.0** due to clean balancing and fraud separation.
@@ -58,3 +58,10 @@ Manually doing the stratified division of the dataset into training and testing 
 ✔️ Spark-only Implementation
 Overall project was completed exclusively by the use of PySpark, SparkSQL, and SparkML within the Databricks Community Edition.
 There was no usage of the pandas library or other supplementary tools.
+
+### 📊 Project Pipeline
+
+The steps below summarize the end-to-end process used in the project:
+
+![Project Pipeline](project_pipeline.png)
+
