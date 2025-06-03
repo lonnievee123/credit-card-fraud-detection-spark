@@ -75,6 +75,7 @@ F1-Score	89%
 
 ![Confusion Matrix](confusion_matrix.png)
 
+> This confusion matrix shows the distribution of predicted vs actual classes using the Random Forest model. A high true positive count reflects the model’s strong recall.
 
 Focused on minimizing false negatives to avoid missed fraud.
 
