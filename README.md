@@ -69,6 +69,13 @@ Precision	86%
 Recall	92%
 F1-Score	89%
 
+### 📊 Sample Output
+
+#### Confusion Matrix (Random Forest)
+
+![Confusion Matrix](confusion_matrix.png)
+
+
 Focused on minimizing false negatives to avoid missed fraud.
 
 ROC curve and confusion matrix available in notebook outputs.
