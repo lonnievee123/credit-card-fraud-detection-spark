@@ -8,13 +8,11 @@ Built and executed entirely on Databricks Community Edition, this solo project d
 To build an ML pipeline capable of accurately identifying anomalous transactions using classification models trained on an imbalanced dataset.
 
 🛠️ Tech Stack
-Platform: Databricks Community Edition
+- **Platform:** Databricks Community Edition  
+- **Languages:** Python, PySpark  
+- **Libraries:** Spark SQL, Spark MLlib, Pandas, Matplotlib  
+- **Tools:** GitHub, Markdown, Jupyter-style notebooks
 
-Languages: Python, PySpark
-
-Libraries: Spark SQL, Spark MLlib, Pandas, Matplotlib
-
-Tools: GitHub, Markdown, Jupyter-style notebooks
 
 📂 Dataset
 Source: Kaggle Credit Card Fraud Dataset
